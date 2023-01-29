@@ -6,15 +6,15 @@
  *
  * This class was written as an early example for teaching Java with BlueJ.
  * 
- * @author  Michael Kšlling and David J. Barnes
+ * @author  Michael Kï¿½lling and David J. Barnes
  * @version 2016.02.29
  */
 public class Picture
 {
-    private Square wall;
-    private Square window;
-    private Triangle roof;
-    private Circle sun;
+    private Circle wheel;
+    private Rectangle window;
+    private Rectabgle door;
+    private Triangle roof ;
     private boolean drawn;
 
     /**
@@ -22,10 +22,10 @@ public class Picture
      */
     public Picture()
     {
-        wall = new Square();
+        wheel = new Square();
         window = new Square();
-        roof = new Triangle();  
-        sun = new Circle();
+        door = new Triangle();  
+        roof = new Circle();
         drawn = false;
     }
 
